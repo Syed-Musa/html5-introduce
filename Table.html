@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 table practise</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            margin: 4px 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="new file.html">src tag</a></li>
+                <li><a href="form.html">Student form</a></li>
+                <li><a href="HTML5.html">Basic</a>
+                    <ul class="dropdown">
+                        <li><a href="home">Home</a></li>
+                        <li><a href="about">About</a>
+                            <ul class="dropdown">
+                                <li><a href="home">Home</a></li>
+                                <li><a href="about">About</a></li>
+                                <li><a href="course">Course</a></li>
+                                <li><a href="contact us">Contact Us</a>
+                                    <ul class="dropdown">
+                                        <li><a href="home">Home</a></li>
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="course">Course</a></li>
+                                        <li><a href="contact us">Contact Us</a>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="course">Course</a></li>
+                        <li><a href="contact us">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>HTML 5 Table</h2>
+    <table>
+        <caption>Course Details</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Course Name</th>
+                <th>Day</th>
+                <th>Payment</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Web Development</td>
+                <td>6 Month</td>
+                <td>5500/-</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Digital Marketing</td>
+                <td>4 Month</td>
+                <td>15000/-</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Graphics Design</td>
+                <td>7 Month</td>
+                <td>10000/-</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Basic Computer</td>
+                <td>3 Month</td>
+                <td>3000/-</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Courses : 04</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <ul>
+        <li>table : Table</li>
+        <li>thead : table head</li>
+        <li>tbody : table body</li>
+        <li>tfoot : table footer</li>
+        <li>tr : table row</li>
+        <li>td : table data or table cell</li>
+        <li>th : table header cell</li>
+        <li>caption</li>
+    </ul>
+
+    <button>Click Me</button>
+    <button disabled>Click Me</button>
+    <button title="Please click me">Click Me</button>
+
+    <ul class="dropdown" id="user">
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+    </ul>
+</body>
+</html>

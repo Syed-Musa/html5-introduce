@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Design</title>
+    <style>
+        label {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h3>Student Full Information</h3>
+        <form action="">
+            <label for="name">Student Name :
+                <input type="text" id="name" placeholder="Enter your name">
+            </label>
+            <label for="email">Email :
+                <input type="email" id="email" placeholder="Enter email address">
+            </label>
+            <label for="password">Password :
+                <input type="password" id="password" placeholder="Enter password">
+            </label>
+            <label for="phone">Mobile No :
+                <input type="number" id="phone" placeholder="Enter number">
+            </label>
+            <fieldset>
+                <legend>Select a Department</legend>
+                <label for="cse"> CSE
+                    <input type="radio" id="cse" name="cse">
+                </label>
+                <label for="bba"> BBA
+                    <input type="radio" id="bba" name="cse">
+                </label>
+                <label for="mba"> MBA
+                    <input type="radio" id="mba" name="cse">
+                </label>
+                <label for="bsc"> BSC
+                    <input type="radio" id="bsc" name="cse">
+                </label>
+                <label for="msc"> MSC
+                    <input type="radio" id="msc" name="cse">
+                </label>
+                <label for="llb"> LLB
+                    <input type="radio" id="llb" name="cse">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Our Religion</legend>
+                <label for="muslim"> Muslim
+                    <input type="checkbox" id="muslim" name="muslim">
+                </label>
+                <label for="hindu"> Hindu
+                    <input type="checkbox" id="hindu" name="hindu">
+                </label>
+                <label for="christian"> Christian
+                    <input type="checkbox" id="christian" name="christian">
+                </label>
+                <label for="buddists"> Buddists
+                    <input type="checkbox" id="buddists" name="buddists">
+                </label>
+                <label for="others"> Other
+                    <input type="checkbox" id="others" name="others">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Experience</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
